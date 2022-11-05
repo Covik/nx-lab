@@ -16,5 +16,5 @@ jobs:
         yarn nx-cloud record -- yarn nx workspace-lint
         yarn nx-cloud record -- yarn nx format:check
         yarn nx affected --target=lint
-        yarn nx affected --target=test --ci --code-coverage
+        npx nx affected --target=test -- --ci --code-coverage
         yarn nx affected --target=build
