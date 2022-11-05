@@ -33,9 +33,6 @@
     ],
     "sharedGlobals": []
   },
-  "cli": {
-    "defaultCollection": "@nxext/vite"
-  },
   "generators": {
     "@nxext/vite": {
       "application": {
