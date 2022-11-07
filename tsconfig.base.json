@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nx-lab/api-interface": ["libs/api-interface/src/index.ts"]
+      "@nx-lab/api-interface": ["libs/api-interface/src/index.ts"],
+      "@nx-lab/nx-graph-vue-sfc": ["libs/nx-graph-vue-sfc/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
