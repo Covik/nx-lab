@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "prepare": "node tools/patch-nx-dep-graph.js",
     "start": "nx serve",
     "build": "nx build",
     "test": "nx test"
